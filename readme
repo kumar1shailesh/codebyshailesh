@@ -4,6 +4,57 @@ In this code, we calculate the price performance for all stocks, filter them bas
 
 It's important to note that investing in the stock market involves risks, and past performance may not guarantee future results. Consider conducting thorough research, diversifying your portfolio, and consulting with a financial advisor before making any investment decisions.
 
+2. Machine Learning 
+
+Explanation of Folder Structure:
+
+The app directory contains the main application code.
+
+The api directory houses the API-related components.
+The controllers directory contains the controller files responsible for handling requests and responses.
+The routes.py file defines the API endpoints and their corresponding functions.
+The models directory holds the pre-trained model file(s) for prediction.
+The services directory contains the various services used within the application, such as feature engineering, model training, and prediction.
+The main.py file serves as the entry point for running the application.
+The config directory includes the configuration files for the application.
+
+The config.py file holds the application-level configuration variables.
+The data directory contains the dataset(s) used for training and prediction.
+
+The README.md file provides documentation and information about the AI-Predict SaaS product.
+
+
+NOTES : -
+
+folder structure and files in NumPy. The NumPy codebase is organized into several subdirectories, each containing modules related to a particular aspect of the library. Here's a brief overview of the main directories and files:
+ 1.  `doc` : This directory contains the documentation for NumPy, including the user guide, reference manual, and various tutorials.
+ 2.  `numpy` : This is the main directory of the NumPy codebase, and it contains the core modules and submodules that implement the library's functionality. Some of the key modules in this directory include:
+ -  `core` : This module provides the  `ndarray`  object, which is the main data structure used in NumPy for storing and manipulating arrays.
+ -  `lib` : This module contains various utility functions and C extensions used by other parts of NumPy.
+ -  `linalg` : This module provides linear algebra functions for working with matrices and vectors.
+ -  `fft` : This module provides fast Fourier transform functions for working with signals and images.
+ -  `random` : This module provides functions for generating random numbers.
+ 3.  `benchmarks` : This directory contains benchmarks for testing the performance of NumPy against other libraries.
+ 4.  `docsrc` : This directory contains the source files for the NumPy documentation.
+ 5.  `tools` : This directory contains various scripts and tools used for building and testing NumPy.
+ 6.  `LICENSE.txt` : This file contains the license under which NumPy is distributed.
+ 7.  `setup.py` : This file is used to build and install NumPy.
+ Overall, the NumPy folder structure is well-organized and modular, making it easy to navigate and understand the library's functionality.
+ 
+ 
+The NumPy library is implemented in Python and C, with the core functionality being implemented in C for performance reasons. When a user imports the NumPy library into their Python code, the first file that is called is  __init__.py . This file is located in the  numpy  directory and is responsible for initializing the NumPy library and making its functions available to the user. 
+ The ** __init__.py ** file imports a number of other modules and submodules from the NumPy library, such as  core ,  linalg ,  fft , and  random . These modules contain the core functionality of the library, such as array creation, mathematical operations, linear algebra, and random number generation. 
+ When a user calls a NumPy function, such as  numpy.array()  or  numpy.dot() , the appropriate module is imported and the function is called. For example, if a user calls  numpy.array() , the  core  module is imported and the  array()  function is called.
+ The NumPy library is widely used in scientific computing and data analysis, and provides a powerful set of tools for working with numerical data in Python. Some of the key features of NumPy include: 
+ - High-performance array objects: NumPy provides the  ndarray  object, which is a high-performance array object that can be used for numerical computations. The  ndarray  object is implemented in C and provides a number of functions for creating and manipulating arrays. 
+ - Mathematical functions: NumPy provides a wide range of mathematical functions for working with arrays, including functions for performing basic arithmetic operations, trigonometric functions, logarithmic functions, and more. 
+ - Linear algebra: NumPy provides a  linalg  module that contains a number of linear algebra functions for working with matrices and vectors. These functions include matrix multiplication, matrix inversion, and eigenvalue decomposition. 
+ - Fourier transforms: NumPy provides a  fft  module that contains fast Fourier transform functions for working with signals and images. 
+ - Random number generation: NumPy provides a  random  module that contains functions for generating random numbers. These functions can be used for simulations, testing, and more. 
+ Overall, NumPy is a powerful and versatile library that is essential for anyone working with numerical data in Python.
+
+ 
+
 
 
 
