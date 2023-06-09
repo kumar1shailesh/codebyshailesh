@@ -1,0 +1,9 @@
+1. Indian Stock portfolio NSE 
+
+In this code, we calculate the price performance for all stocks, filter them based on the defined criteria (minimum performance and minimum price), and then select the top N stocks for the portfolio. Adjust the threshold and minimum_price variables according to your preferences. The resulting portfolio will consist of the selected multibagger stocks along with their price performance and current prices.
+
+It's important to note that investing in the stock market involves risks, and past performance may not guarantee future results. Consider conducting thorough research, diversifying your portfolio, and consulting with a financial advisor before making any investment decisions.
+
+
+
+
